@@ -40,7 +40,7 @@ namespace RecallTracker
             Menu = MainMenu.AddMenu("Recall Tracker", "RecallTracker");
             Menu.AddGroupLabel("Recall Tracker");
             Menu.AddLabel("X/Y Settings");
-            Menu.Add("recallX", new Slider("X Offset", 0, -500, 500));
+            Menu.Add("recallX", new Slider("X Offset", 0, -1500, 100));
             Menu.Add("recallY", new Slider("Y Offset", 0, -500, 500));
             Menu.AddLabel("Misc Settings");
             var a = Menu.Add("resetDefault", new CheckBox("Reset X/Y", false));
